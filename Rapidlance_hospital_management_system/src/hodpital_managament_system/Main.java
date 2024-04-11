@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "Ashwin@06");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "password");
 
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter your role (doctor/user): ");
